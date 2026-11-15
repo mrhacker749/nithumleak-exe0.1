@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10151b">
+  <meta name="description" content="A tiny birthday surprise for Yush, from Anuda.">
+  <title>NITHUM.EXE — Birthday Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <main>
+    <section class="terminal-screen" id="intro">
+      <div class="terminal-window">
+        <div class="terminal-top">
+          <div class="traffic"><i></i><i></i><i></i></div>
+          <span>unknown_archive.exe</span>
+          <span class="top-right">LOCAL SIMULATION</span>
+        </div>
+        <div class="terminal-content">
+          <div class="eyebrow"><span class="pulse"></span> UNIDENTIFIED ARCHIVE FOUND</div>
+          <h1>NITHUM<span class="green">.EXE</span></h1>
+          <p class="terminal-sub">A suspicious little folder has entered the chat.</p>
+          <div class="scan-box">
+            <div class="scan-line"><span>INITIALISING ARCHIVE</span><b id="scanPercent">00%</b></div>
+            <div class="progress"><span id="progressFill"></span></div>
+            <div class="log" id="terminalLog" aria-live="polite">
+              <p>&gt; Looking for absolutely unnecessary information...</p>
+              <p>&gt; Checking friendship status: <span class="green">2 YEARS OF CHAOS FOUND</span></p>
+              <p>&gt; Opening classified birthday folder...</p>
+            </div>
+          </div>
+          <div class="warning"><span>⚠</span> WARNING: EXTREMELY SILLY CONTENT DETECTED</div>
+          <button class="button button-green" id="openArchive">VIEW LEAKED FILES <span>↗</span></button>
+          <p class="tiny-note">No actual hacking. Just Anuda being suspicious again.</p>
+        </div>
+      </div>
+      <div class="intro-footer"><span>PROJECT NITHUM.EXE</span><span>EST. 2024 · BIRTHDAY BUILD 2026</span></div>
+    </section>
+
+    <section class="identity-screen hidden" id="identity">
+      <div class="identity-card">
+        <div class="lock-icon">⌑</div>
+        <p class="eyebrow red-text">RESTRICTED ACCESS</p>
+        <h2>Nithum's <span>Leaks</span></h2>
+        <p class="muted">The archive owner has left a very important identity check.</p>
+        <label for="visitorName">IDENTIFY YOURSELF, HUMAN</label>
+        <input id="visitorName" type="text" maxlength="32" placeholder="Enter your name..." autocomplete="off">
+        <button class="button button-red" id="verifyButton">UNLOCK THE ARCHIVE <span>→</span></button>
+        <p class="tiny-note">Hint: you probably know who you are. Probably.</p>
+        <p class="error-message" id="nameError" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="reveal hidden" id="reveal">
+      <div class="reveal-glow"></div>
+      <div class="reveal-content">
+        <div class="confetti-word">SURPRISE INCOMING ✦</div>
+        <p class="reveal-kicker">THE ARCHIVE WAS A TRAP</p>
+        <h2>HAPPY BIRTHDAY<br><span>YUSH!</span></h2>
+        <p class="reveal-copy">YOU HAVE BEEN OFFICIALLY PRANKED BY ANUDA.</p>
+        <div class="cake">🎂</div>
+        <p class="reveal-small">16 NOVEMBER 2026 · LEVEL 1 YEAR OLDER</p>
+        <button class="button button-light" id="startMemories">OKAY, SHOW ME THE EVIDENCE ↓</button>
+      </div>
+      <div class="balloon balloon-one">🎈</div><div class="balloon balloon-two">🎈</div>
+      <div class="balloon balloon-three">🎈</div><div class="balloon balloon-four">🎈</div>
+    </section>
+
+    <section class="memories hidden" id="memories">
+      <header class="memory-header">
+        <p class="section-kicker">THE ACTUAL ARCHIVE · EST. 2024</p>
+        <h2>Two years of<br><em>questionable decisions.</em></h2>
+        <p class="section-intro">Somehow, through all the nonsense, we've collected a few memories worth keeping.</p>
+      </header>
+
+      <div class="note-card">
+        <span class="note-stamp">CONFIDENTIAL-ish</span>
+        <p>Dear Yush,</p>
+        <p>Congratulations on surviving another trip around the sun. Two years of friendship and you still haven't figured out how to get rid of me. That's honestly impressive.</p>
+        <p>Thanks for the laughs, the random chaos and being a supportive human when it actually matters. Don't let this birthday make you too mature. We have a reputation to maintain.</p>
+        <p class="note-sign">— Anuda ✍️</p>
+      </div>
+
+      <div class="gallery-heading">
+        <div><p class="section-kicker">FILE COLLECTION 01</p><h3>Photographic evidence 📸</h3></div>
+        <span class="count-pill">05 FILES</span>
+      </div>
+      <div class="photo-grid">
+        <figure class="photo-card rotate-left"><div class="photo-frame"><img src="assets/photos/memory-01.jpg" alt="Memory 1" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="media-placeholder">ADD<br>PHOTO 01</div></div><figcaption><b>Exhibit A</b><span>Proof that we go outside sometimes.</span></figcaption></figure>
+        <figure class="photo-card rotate-right"><div class="photo-frame"><img src="assets/photos/memory-02.jpg" alt="Memory 2" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="media-placeholder">ADD<br>PHOTO 02</div></div><figcaption><b>Exhibit B</b><span>A moment for the archive.</span></figcaption></figure>
+        <figure class="photo-card rotate-right"><div class="photo-frame"><img src="assets/photos/memory-03.jpg" alt="Memory 3" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="media-placeholder">ADD<br>PHOTO 03</div></div><figcaption><b>Exhibit C</b><span>Normal behaviour? Never heard of it.</span></figcaption></figure>
+        <figure class="photo-card rotate-left"><div class="photo-frame"><img src="assets/photos/memory-04.jpg" alt="Memory 4" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="media-placeholder">ADD<br>PHOTO 04</div></div><figcaption><b>Exhibit D</b><span>Another unforgettable one.</span></figcaption></figure>
+        <figure class="photo-card rotate-left"><div class="photo-frame"><img src="assets/photos/memory-05.jpg" alt="Memory 5" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="media-placeholder">ADD<br>PHOTO 05</div></div><figcaption><b>Exhibit E</b><span>Evidence submitted. Case closed.</span></figcaption></figure>
+      </div>
+
+      <div class="gallery-heading video-heading">
+        <div><p class="section-kicker">FILE COLLECTION 02</p><h3>Moving evidence 🎬</h3></div>
+        <span class="count-pill">03 FILES</span>
+      </div>
+      <div class="video-grid">
+        <article class="video-card"><video controls playsinline preload="metadata" poster=""><source src="assets/videos/memory-video-01.mp4" type="video/mp4">Your browser does not support video.</video><p><b>Replay 01</b><span>Press play. Prepare for embarrassment.</span></p></article>
+        <article class="video-card"><video controls playsinline preload="metadata"><source src="assets/videos/memory-video-02.mp4" type="video/mp4">Your browser does not support video.</video><p><b>Replay 02</b><span>Some things need no explanation.</span></p></article>
+        <article class="video-card"><video controls playsinline preload="metadata"><source src="assets/videos/memory-video-03.mp4" type="video/mp4">Your browser does not support video.</video><p><b>Replay 03</b><span>Certified chaos. 10/10.</span></p></article>
+      </div>
+
+      <section class="final-message">
+        <div class="sparkle">✦ ✧ ✦</div>
+        <p class="section-kicker">END OF ARCHIVE</p>
+        <h2>Stay weird,<br><em>Yush.</em></h2>
+        <p>Jokes aside, I'm genuinely glad we became friends. Keep being the funny, crazy and supportive person you are. Wishing you a year full of good memories, big wins and absolutely zero boring days.</p>
+        <h3>HAPPY BIRTHDAY, NITHUM! 🥳</h3>
+        <p class="from-line">With chaos & good wishes,<br><strong>Anuda</strong></p>
+        <button class="button button-outline" id="replayButton">↻ REPLAY THE PRANK</button>
+      </section>
+      <footer class="site-footer">MADE WITH 2 YEARS OF FRIENDSHIP & A QUESTIONABLE SENSE OF HUMOUR · NITHUM.EXE</footer>
+    </section>
+  </main>
+
+  <div class="music-control hidden" id="musicControl">
+    <button id="musicButton" aria-label="Play or pause background music">▶</button>
+    <span id="musicLabel">PLAY THE VIBE</span>
+    <audio id="birthdayAudio" loop preload="none"><source src="assets/music/soundtrack.mp3" type="audio/mpeg"></audio>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
